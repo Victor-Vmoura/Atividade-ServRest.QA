@@ -52,7 +52,7 @@ jobs:
     - name: Project checkout
       uses: actions/checkout@v3
     - name: Node.js Setup
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@v7
       with:
         node-version: 22
     # O Node 22 embute o npm 10.x e o trusted publishing exige 11.5.1 ou superior
