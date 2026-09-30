@@ -1,0 +1,15 @@
+{
+  "check-coverage": true,
+  "branches": 100,
+  "lines": 100,
+  "functions": 100,
+  "statements": 100,
+  "reporter": ["text", "lcov"],
+  "exclude": [
+    "test/**",
+    "src/swagger/index.js",
+    "src/middlewares/moesif-monitor-middleware.js",
+    "src/middlewares/rate-limiter.js",
+    "src/utils/ambiente.js"
+  ]
+}
